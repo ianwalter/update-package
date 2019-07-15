@@ -1,0 +1,51 @@
+{
+  "name": "@ianwalter/update-package",
+  "description": "Update a project's package.json file",
+  "version": "0.0.0",
+  "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "bff -c 1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianwalter/update-package.git"
+  },
+  "keywords": [
+    "update",
+    "merge",
+    "package.json"
+  ],
+  "bugs": {
+    "url": "https://github.com/ianwalter/update-package/issues"
+  },
+  "homepage": "https://github.com/ianwalter/update-package#readme",
+  "dependencies": {
+    "@ianwalter/merge": "^5.0.0",
+    "read-pkg-up": "^6.0.0",
+    "write-pkg": "^4.0.0"
+  },
+  "devDependencies": {
+    "@ianwalter/bff": "^6.3.1",
+    "@ianwalter/eslint-config": "^2.1.1",
+    "@ianwalter/release": "^1.1.0",
+    "@ianwalter/renovate-config": "^1.1.1",
+    "execa": "^2.0.3"
+  },
+  "bff": {
+    "plugins": [
+      "tests/config"
+    ]
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@ianwalter"
+    ]
+  }
+}
