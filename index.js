@@ -2,7 +2,7 @@ const readPkgUp = require('read-pkg-up')
 const merge = require('@ianwalter/merge')
 const writePkg = require('write-pkg')
 
-module.exports = async (updates, options) => {
+module.exports = async (updates, options = {}) => {
   // Read the package.json if it hasn't been passed.
   let path = options.cwd || '.'
   if (!options.package) {
