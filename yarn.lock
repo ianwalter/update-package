@@ -191,14 +191,15 @@
     has-ansi "^3.0.0"
     has-emoji "^1.0.0"
 
-"@ianwalter/release@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/release/-/release-1.1.0.tgz#d23e85ce86432773ffc864bb4f742f1ec310a3de"
-  integrity sha512-ztk80jDl/+vDPc++k/Jow/wS4XujC1n3OhvwQSNFwwyltxQey8cwO3KNBSVh9Eg3KHu1nICQZDKlugK3oW+7nQ==
+"@ianwalter/release@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@ianwalter/release/-/release-1.1.2.tgz#035ab5e19a3b359f3a645ab74082d079de570a84"
+  integrity sha512-evlscVY/SG7UUEWjFRMMMwSn4jdKJTbdGjUKI956K1gCLrQK3FceOkSSb52uisQ3G3FPkxINYoSXQryqrE89Pg==
   dependencies:
     "@ianwalter/cli" "^1.2.0"
     "@ianwalter/commits" "^0.0.5"
     "@ianwalter/print" "^3.0.1"
+    "@ianwalter/update-package" "^0.0.1"
     common-tags "^1.8.0"
     execa "^2.0.3"
     marked "^0.7.0"
@@ -206,12 +207,20 @@
     new-github-release-url "^1.0.0"
     prompts "^2.1.0"
     semver "^6.2.0"
-    write-pkg "^4.0.0"
 
 "@ianwalter/renovate-config@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@ianwalter/renovate-config/-/renovate-config-1.1.1.tgz#285c0fe4351d90fe05508930fbedbdc4b9fb8603"
   integrity sha512-72PUwgDGtL1IfzeqxmS9qo2PgO78KheLyRpf30wlp/FQIHULNvJN+U8t9berWxDk2rSW12fNf9CVvPQ/Wpc9tQ==
+
+"@ianwalter/update-package@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@ianwalter/update-package/-/update-package-0.0.1.tgz#9cf50393ff56fe341449dba4ecf8eefea6fd1bf5"
+  integrity sha512-IV/qdLyUAhPs32B1iGE7pXJjIX5tBVpMIfA32Yla+QVCGJLRfucbEGt+2rha0eIRd4yA6vASHdLw3AgPVvcq4A==
+  dependencies:
+    "@ianwalter/merge" "^5.0.0"
+    read-pkg-up "^6.0.0"
+    write-pkg "^4.0.0"
 
 "@jest/console@^24.7.1":
   version "24.7.1"
