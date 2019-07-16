@@ -191,15 +191,15 @@
     has-ansi "^3.0.0"
     has-emoji "^1.0.0"
 
-"@ianwalter/release@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@ianwalter/release/-/release-1.1.2.tgz#035ab5e19a3b359f3a645ab74082d079de570a84"
-  integrity sha512-evlscVY/SG7UUEWjFRMMMwSn4jdKJTbdGjUKI956K1gCLrQK3FceOkSSb52uisQ3G3FPkxINYoSXQryqrE89Pg==
+"@ianwalter/release@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@ianwalter/release/-/release-1.1.5.tgz#b9cd041ec7a0e659c7f78764acd3fd5058998076"
+  integrity sha512-ZsQQ+rDrGt5cPFsW6u4WA9u8zav8D32M2B1fjXkYlSOGHJldy4mWIrd8Yp6IhLNfMoYyAHtdyzlmMK0DsD0y5g==
   dependencies:
     "@ianwalter/cli" "^1.2.0"
     "@ianwalter/commits" "^0.0.5"
     "@ianwalter/print" "^3.0.1"
-    "@ianwalter/update-package" "^0.0.1"
+    "@ianwalter/update-package" "^0.0.2"
     common-tags "^1.8.0"
     execa "^2.0.3"
     marked "^0.7.0"
@@ -213,10 +213,10 @@
   resolved "https://registry.yarnpkg.com/@ianwalter/renovate-config/-/renovate-config-1.1.1.tgz#285c0fe4351d90fe05508930fbedbdc4b9fb8603"
   integrity sha512-72PUwgDGtL1IfzeqxmS9qo2PgO78KheLyRpf30wlp/FQIHULNvJN+U8t9berWxDk2rSW12fNf9CVvPQ/Wpc9tQ==
 
-"@ianwalter/update-package@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@ianwalter/update-package/-/update-package-0.0.1.tgz#9cf50393ff56fe341449dba4ecf8eefea6fd1bf5"
-  integrity sha512-IV/qdLyUAhPs32B1iGE7pXJjIX5tBVpMIfA32Yla+QVCGJLRfucbEGt+2rha0eIRd4yA6vASHdLw3AgPVvcq4A==
+"@ianwalter/update-package@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@ianwalter/update-package/-/update-package-0.0.2.tgz#b60e688203f7cec5993c7ca2df6cb267f331dbe1"
+  integrity sha512-UDpblOrOaHsZJdAOMzijpD86TfSrlEGzYlz/9b5e+rz1/Icy7nADWU6HdPCAy2ZXDJorwUDIQCJnhnnfFFfXbQ==
   dependencies:
     "@ianwalter/merge" "^5.0.0"
     read-pkg-up "^6.0.0"
